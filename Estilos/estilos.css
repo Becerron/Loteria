@@ -1,0 +1,40 @@
+body{
+    background-color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+}
+button{
+    border-radius: 5px;
+    width: 150px;
+    height: 40px;
+}
+fieldset{
+    border-radius: 15px;
+    min-height: 422px;
+    max-height: 423px;
+
+}
+#Botones{
+    display: flex;
+    justify-content: space-evenly;
+}
+#Carta{
+    border-radius: 10px;
+    height: 420px;
+    width: 264px;
+}
+#Bandera{
+    width: 240px;
+    height: 137px;
+    border-radius: 5px;
+
+}
+#SeleccionIdioma{
+    display: flex;
+    justify-content: space-evenly;
+}
+#SeleccionIdiomaR{
+    display: flex;
+    justify-content: space-evenly;
+}

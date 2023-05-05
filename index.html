@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Estilos/estilos.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loteria</title>
+</head>
+
+<body>
+    <h1 id="Titulo">La Loteria</h1>
+    <h3>Diego Alonso Becerra Camacho</h3>
+    <fieldset>
+        <div id="Imagenes">
+            <br>
+        </div>
+
+        <h1 id="Mensaje" style="display: block;">Selecciona el idioma</h1>
+
+        <div id="SeleccionIdioma">
+            <img src="BanderaMx.png" alt="" id="Bandera" class="BanderaMx" style="margin-left: 100px;">
+            <img src="BanderaVa.png" alt="" id="Bandera" class="BanderaVa" style="width: 160px;">
+            <img src="BanderaUs.png" alt="" id="Bandera" class="BanderaUs" style="margin-right: 100px;">
+
+        </div>
+        <br>
+        <div id="SeleccionIdiomaR">
+            <input type="radio" id="Mexico" name="Bandera">
+            <input type="radio" id="Vaticano" name="Bandera">
+            <input type="radio" id="EstadosUnidos" name="Bandera">
+
+
+        </div>
+        <br><br><br>
+
+
+        <center><button onclick="comenzarbarajar()" id="Comenzar">Comenzar</button></center>
+
+    </fieldset><br>
+
+    <div id="Botones">
+        <button onclick="anterior()" style="display: none;" id="AnteriorBtn">Carta Anterior</button>
+        <button onclick="siguiente()" style="display: none; " id="SiguienteBtn">Siguiente Carta</button>
+    </div>
+    <center><button onclick="reiniciar()" style="display: none;" id="Reiniciar">Reiniciar</button></center>
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
